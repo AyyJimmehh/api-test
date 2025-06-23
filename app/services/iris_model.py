@@ -27,7 +27,7 @@ def predict_single(features: IrisFeatures) -> PredictionOutput:
 
 def predict_batch_data(inputs: list[IrisFeatures]):
     results = [predict_single(feat) for feat in inputs]
-    df = pd.DataFrame([r.dict() for r in results])
+    df = pd.DataFrame([r.model_dump() for r in results])
     filename = f"predictions_{uuid.uuid4().hex[:8]}.csv"
     df.to_csv(filename, index=False)
     cleanup_old_csvs()
