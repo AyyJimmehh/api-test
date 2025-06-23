@@ -1,0 +1,41 @@
+# --- Python & venv ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+*.log
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# --- Environment & Secrets ---
+.env
+.env.*
+
+# --- Data & Output ---
+*.csv
+*.xlsx
+*.json
+*.zip
+*.parquet
+*.h5
+*.db
+*.sqlite3
+*.sav
+
+# --- IDE Configs ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- OS / System ---
+Thumbs.db
+desktop.ini
+
+# --- Uvicorn / Gunicorn ---
+*.pid
+*.sock
