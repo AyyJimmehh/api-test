@@ -1,5 +1,5 @@
 @echo off
-echo 🔄 Deleting all __pycache__ folders and .pyc files...
+echo Deleting all __pycache__ folders and .pyc files...
 
 REM Delete all __pycache__ folders
 for /d /r %%d in (__pycache__) do (
@@ -13,5 +13,5 @@ for /r %%f in (*.pyc) do (
     del /q "%%f"
 )
 
-echo ✅ Done!
+echo Done!
 pause
