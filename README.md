@@ -2,8 +2,8 @@
 
 ### 1. Clone the Repo
 ```
-git clone https://github.com/your-username/iris-fastapi-api.git
-cd iris-fastapi-api
+git clone https://github.com/AyyJimmehh/api-test.git
+cd api-test
 ```
 
 ### 2. Install Requirements
