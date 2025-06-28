@@ -1,4 +1,4 @@
-# API Test project 
+# API Test Project 
 
 ### 1. Clone the Repo
 ```
